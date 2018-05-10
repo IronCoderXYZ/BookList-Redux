@@ -1,3 +1,3 @@
 export const selectBook = book => {
-  return { payload: book, action: 'SELECTING_BOOK' };
+  return { payload: book, type: 'SELECTING_BOOK' };
 };
